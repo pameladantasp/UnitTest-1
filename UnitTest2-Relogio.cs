@@ -14,7 +14,7 @@ namespace QuemVemLa
         //<PackageFamilyName + !App>
         public string appID = "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App";
 
-        //Conex�o com Windows App Driver
+        //Conexao com Windows App Driver
         public string URL = @"http://127.0.0.1:4723/";
 
         public WindowsDriver<WindowsElement> alarm_session;       
